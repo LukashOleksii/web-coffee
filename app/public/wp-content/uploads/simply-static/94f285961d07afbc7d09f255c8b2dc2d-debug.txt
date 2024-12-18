@@ -1,0 +1,1331 @@
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:172] Current task: setup
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2024-12-18 18:04:30] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-12-18 18:04:30] [class-ss-setup-task.php:33] Creating archive directory: /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/
+[2024-12-18 18:04:30] [class-ss-setup-task.php:72] Adding origin URL to queue: http://coffee-shop.local/
+[2024-12-18 18:04:30] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://coffee-shop.local/sitemap.xml
+[2024-12-18 18:04:30] [class-yoast-integration.php:92] Adding sitemap URL to queue: http://coffee-shop.local/sitemap_index.xml
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:30] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:30] [class-ss-fetch-urls-task.php:69] Total pages: 3; Pages remaining: 3
+[2024-12-18 18:04:30] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/
+[2024-12-18 18:04:30] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 3
+[2024-12-18 18:04:30] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:30] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eae276ae-RfbHeH.tmp
+[2024-12-18 18:04:30] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/?simply_static_page=481
+[2024-12-18 18:04:30] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/?simply_static_page=481
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 132694 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eae276ae-RfbHeH.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/index.html
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 62 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:f5a3c0519a095ae7fbb8381d6c21206835aad3c9===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/sitemap.xml
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 3
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb391741-xZv6wq.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/sitemap.xml?simply_static_page=482
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/sitemap.xml?simply_static_page=482
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 73017 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3c40ab-xrshjm.tmp
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/sitemap.xml
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:204] redirect_url: http://coffee-shop.local/sitemap_index.xml
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: sitemap.xml
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:8d150f9db60d39b3c467babdd78f82bfb9bdbdb6===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/sitemap_index.xml
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 3
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3d5d42-zOWP4U.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/sitemap_index.xml?simply_static_page=483
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/sitemap_index.xml?simply_static_page=483
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 754 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: sitemap_index.xml
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb3d5d42-zOWP4U.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml
+[2024-12-18 18:04:35] [class-ss-yoast-sitemap-handler.php:85] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/main-sitemap.xsl
+[2024-12-18 18:04:35] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:017f7f0debe5c835816637bbc4e73332293afff6===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 3 pages/files
+[2024-12-18 18:04:35] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-18 18:04:35] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:35] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:69] Total pages: 69; Pages remaining: 66
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18.png
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 69
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3ebd1f-LpTdGw.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18.png?simply_static_page=484
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18.png?simply_static_page=484
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 355924 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18.png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb3ebd1f-LpTdGw.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18.png
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:af0b9731f3dc10b61792e7d356af6525e1be2ae8===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-300x300.png
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 69
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3eefe7-9vyCqb.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-300x300.png?simply_static_page=485
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-300x300.png?simply_static_page=485
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 147042 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-300x300.png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb3eefe7-9vyCqb.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-300x300.png
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:7ccb40ddf540929848e551dcf26a89d6e59d12dc===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-150x150.png
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 69
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3f1073-5PXWGT.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-150x150.png?simply_static_page=486
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-150x150.png?simply_static_page=486
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 45331 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-150x150.png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb3f1073-5PXWGT.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-150x150.png
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:500071402202b54153eeb82c23de1c1928ac5b69===. Value: FALSE
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-270x270.png
+[2024-12-18 18:04:35] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 69
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb3f2bbb-SAbX4M.tmp
+[2024-12-18 18:04:35] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-270x270.png?simply_static_page=487
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-270x270.png?simply_static_page=487
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:103] Filesize: 123305 bytes
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-270x270.png
+[2024-12-18 18:04:35] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb3f2bbb-SAbX4M.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-270x270.png
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:35] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:35] [class-ss-page.php:119] Checking Content Identical:c2d26a0fa099fc5642cc84a340708d091791a7fb===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-192x192.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb400616-7Uo8kR.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-192x192.png?simply_static_page=488
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-192x192.png?simply_static_page=488
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 69179 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-192x192.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb400616-7Uo8kR.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-192x192.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3e16cd311f4bc52410226832de23ee72c456f632===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-180x180.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb402188-Pf9FhC.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-180x180.png?simply_static_page=489
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-180x180.png?simply_static_page=489
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 62026 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-180x180.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb402188-Pf9FhC.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-180x180.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:2d52beada9c1eff45c5b37f6b55fdaf71c05befc===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-32x32.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb40408c-bFOFPV.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-32x32.png?simply_static_page=490
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-32x32.png?simply_static_page=490
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2938 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-32x32.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb40408c-bFOFPV.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/cropped-Screenshot-2024-12-18-at-15.19.18-32x32.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:24ec09ebbdc5329edfeba897d0363403e28839fc===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb405513-kLwESb.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am.jpg?simply_static_page=491
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am.jpg?simply_static_page=491
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 108988 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb405513-kLwESb.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:64f0f24202d5c2fca3c9c17ab2e2d87918c504ad===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-300x120.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4074f4-FHlIbl.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-300x120.jpg?simply_static_page=492
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-300x120.jpg?simply_static_page=492
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 15911 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-300x120.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4074f4-FHlIbl.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-300x120.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:39e88c836c4c41d5ccf92e3fd29dc125ad141d9e===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-768x307.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb408b5f-GP1vTU.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-768x307.jpg?simply_static_page=493
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-768x307.jpg?simply_static_page=493
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 68270 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-768x307.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb408b5f-GP1vTU.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/360_F_234631554_fFopmou1B5oeEIeFZZUWLPjfXupNG5am-768x307.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:f2fa469287b0e4146ae141a604f6e6e121306f0f===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb40a641-OjtnHP.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV.jpg?simply_static_page=494
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV.jpg?simply_static_page=494
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 84379 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb40a641-OjtnHP.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:58ef8f9310c5d06d07588163f2df363b40d99d77===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-300x200.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb40c2a2-hDqZyx.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-300x200.jpg?simply_static_page=495
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-300x200.jpg?simply_static_page=495
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 16525 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-300x200.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb40c2a2-hDqZyx.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-300x200.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:6b8e436824251bdb895cc9be98ed9e4f9f1669a5===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-768x512.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb40dbab-eiVerG.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-768x512.jpg?simply_static_page=496
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-768x512.jpg?simply_static_page=496
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 71232 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-768x512.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb40dbab-eiVerG.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xdelicious-coffee-cup-indoors-min-scaled-810x540-q82-gd.jpg.pagespeed.ic_.LM3knROVjV-768x512.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:891c48f3e75a19ab7cb6293c78c63cf7fbdbbb8b===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-1.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb40f8eb-ojlGCs.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/benefit-1.png?simply_static_page=497
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-1.png?simply_static_page=497
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 1835 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/benefit-1.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb40f8eb-ojlGCs.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/benefit-1.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3074b8e2b2c5dd5bd4f7bedebbdfe1d67d0f2221===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-2.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb410e23-cHTEmu.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/benefit-2.png?simply_static_page=498
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-2.png?simply_static_page=498
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2005 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/benefit-2.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb410e23-cHTEmu.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/benefit-2.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:4c6e62ca66d375389f22b5c3bc41fc9ee4e9a99a===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-3.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4122a7-S7zhiG.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/benefit-3.png?simply_static_page=499
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-3.png?simply_static_page=499
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 1964 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/benefit-3.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4122a7-S7zhiG.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/benefit-3.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:5f5e03eaa54c719775a588d8fea25f71550b6bc8===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-4.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb414094-ngICHU.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/benefit-4.png?simply_static_page=500
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/benefit-4.png?simply_static_page=500
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2637 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/benefit-4.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb414094-ngICHU.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/benefit-4.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:f93fe97022db19b7841ef918391d25c939875b3d===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fashion.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb415802-CEiuZN.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fashion.png?simply_static_page=501
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fashion.png?simply_static_page=501
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 330592 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/idea-flow/assets/images/team/fashion.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb415802-CEiuZN.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/themes/idea-flow/assets/images/team/fashion.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:c50b0953d801b94418ca7e1d21b3bac8a078d072===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-1024x768.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb41828f-nbev1c.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-1024x768.jpg?simply_static_page=502
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-1024x768.jpg?simply_static_page=502
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 132156 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-1024x768.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb41828f-nbev1c.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-1024x768.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:29b26f336e7840fa91c0e70ad8c58eeed0bb3da2===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-300x225.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb41a496-DuPBnH.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-300x225.jpg?simply_static_page=503
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-300x225.jpg?simply_static_page=503
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 19593 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-300x225.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb41a496-DuPBnH.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-300x225.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3106f83ea20c903b5bdd8b12784d7760f777edda===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-768x576.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb41c070-dSPZRI.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-768x576.jpg?simply_static_page=504
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-768x576.jpg?simply_static_page=504
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 85214 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-768x576.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb41c070-dSPZRI.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f-768x576.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:0a74da538642ba10318dc907e3ab9834afbd0d59===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb41dcab-2CCmO9.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f.jpg?simply_static_page=505
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f.jpg?simply_static_page=505
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 160561 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb41dcab-2CCmO9.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/ff2174bccd5462865912d35af470aa3f.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:67b1ac12be5425907188ffd3bcca6478d7413367===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fitness.png
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb41ff31-w1t1ch.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fitness.png?simply_static_page=506
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/images/team/fitness.png?simply_static_page=506
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 352418 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/idea-flow/assets/images/team/fitness.png
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb41ff31-w1t1ch.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/themes/idea-flow/assets/images/team/fitness.png
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:e219f7293dec58826bd01c615e67527f6151af73===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4222c9-mWFS8N.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg?simply_static_page=507
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg?simply_static_page=507
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 509 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4222c9-mWFS8N.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/images/submit-spin.svg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:2efc98059ba9c28d93312c2e51f63feb76f8a3b6===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4240d7-je4TdK.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR.jpg?simply_static_page=508
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR.jpg?simply_static_page=508
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 87904 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4240d7-je4TdK.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:da3c6896dcbb8f2f6cf300fb0696003ebb17fe8e===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-300x300.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb425b7d-FJyglC.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-300x300.jpg?simply_static_page=509
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-300x300.jpg?simply_static_page=509
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 20141 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-300x300.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb425b7d-FJyglC.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-300x300.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:2ad747cc18d129564a527c990d6d138473371594===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-150x150.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb427685-FeBYqz.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-150x150.jpg?simply_static_page=510
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-150x150.jpg?simply_static_page=510
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 6722 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-150x150.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb427685-FeBYqz.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xcup-green-tea-with-mint-lemon-wooden-table-min-scaled-744x744-q82-gd.jpg.pagespeed.ic_.jKSF4OaSRR-150x150.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:9cbaa82d3c79adf75c063aa85347f69e54fe9c9d===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/jquery/jquery.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb428ba5-HvyMns.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=511
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=511
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb428ba5-HvyMns.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/jquery/jquery.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb42baa7-PjjZcj.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=512
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=512
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb42baa7-PjjZcj.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/dist/dom-ready.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb42d736-w6aKBI.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/dist/dom-ready.min.js?simply_static_page=513
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/dist/dom-ready.min.js?simply_static_page=513
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/dom-ready.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb42d736-w6aKBI.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/dist/dom-ready.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/dist/hooks.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb42f239-OabVrn.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/dist/hooks.min.js?simply_static_page=514
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/dist/hooks.min.js?simply_static_page=514
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 4776 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/hooks.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb42f239-OabVrn.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/dist/hooks.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:a136ebf5054fdc19729b3592005fe0fefec4bb4c===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/dist/i18n.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb430884-yJQE1Z.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/dist/i18n.min.js?simply_static_page=515
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/dist/i18n.min.js?simply_static_page=515
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/i18n.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb430884-yJQE1Z.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/dist/i18n.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/blocks/faqs/view-script.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb432687-1t0hwo.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/blocks/faqs/view-script.js?simply_static_page=516
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/blocks/faqs/view-script.js?simply_static_page=516
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2104 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/dist/blocks/faqs/view-script.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb432687-1t0hwo.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/dist/blocks/faqs/view-script.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:9980621c8cf4c4783a6028de880b1985104642dd===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb434084-zHilYI.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=517
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=517
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb434084-zHilYI.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb43722e-l7hPTz.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=518
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=518
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb43722e-l7hPTz.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb438a90-Zz3P40.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=519
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=519
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb438a90-Zz3P40.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb43a59f-swJBCl.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=520
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=520
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb43a59f-swJBCl.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb43bef7-Lp5DFy.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=521
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=521
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb43bef7-Lp5DFy.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb43d85f-RiGs4s.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?simply_static_page=522
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?simply_static_page=522
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 25308 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb43d85f-RiGs4s.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:edca17b69a2c084c2abd43c7bda614dd7e04d2c6===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb43f44a-38bFAU.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?simply_static_page=523
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?simply_static_page=523
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 4014 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb43f44a-38bFAU.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:bba43108f022eaa28a7637c1ed7b7cb287d1691d===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb440a6e-6yQpxD.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?simply_static_page=524
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?simply_static_page=524
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 1713 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb440a6e-6yQpxD.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:0dc76a6bcad4bdce1b88ec6e68215733c97fc520===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb441f71-hOzqY7.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?simply_static_page=525
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?simply_static_page=525
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 1220 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb441f71-hOzqY7.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:1ea3dbe6177083ecd52281991680d86f49799cb5===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb44399b-7j4IVs.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?simply_static_page=526
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?simply_static_page=526
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 49900 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb44399b-7j4IVs.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:61d7419cd4fe0aa196fb7a2dac7ad3d2d68c65e7===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb445a82-rWEFSN.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?simply_static_page=527
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js?simply_static_page=527
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 6006 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb445a82-rWEFSN.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms-modern.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:8c5510ad6014b28d3a9d10fe4bf68cc6cb21b507===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdark-roasted-coffee-beans-fill-wooden-grinder-generated-by-ai-min-scaled-530x303-q82-gd.jpg.pagespeed.ic_.JsaXifHQkI.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb446fe9-rk0s5V.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xdark-roasted-coffee-beans-fill-wooden-grinder-generated-by-ai-min-scaled-530x303-q82-gd.jpg.pagespeed.ic_.JsaXifHQkI.jpg?simply_static_page=528
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xdark-roasted-coffee-beans-fill-wooden-grinder-generated-by-ai-min-scaled-530x303-q82-gd.jpg.pagespeed.ic_.JsaXifHQkI.jpg?simply_static_page=528
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 40834 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xdark-roasted-coffee-beans-fill-wooden-grinder-generated-by-ai-min-scaled-530x303-q82-gd.jpg.pagespeed.ic_.JsaXifHQkI.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb446fe9-rk0s5V.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xdark-roasted-coffee-beans-fill-wooden-grinder-generated-by-ai-min-scaled-530x303-q82-gd.jpg.pagespeed.ic_.JsaXifHQkI.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:0c19daadd78b0522d7352eb236c1d7180b88e066===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xmany-different-herbal-teas-grey-table-flat-lay-min-scaled-530x353-q82-gd.jpg.pagespeed.ic_.HdplbZBGSA.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb44896d-nHakeu.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xmany-different-herbal-teas-grey-table-flat-lay-min-scaled-530x353-q82-gd.jpg.pagespeed.ic_.HdplbZBGSA.jpg?simply_static_page=529
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xmany-different-herbal-teas-grey-table-flat-lay-min-scaled-530x353-q82-gd.jpg.pagespeed.ic_.HdplbZBGSA.jpg?simply_static_page=529
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 38381 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xmany-different-herbal-teas-grey-table-flat-lay-min-scaled-530x353-q82-gd.jpg.pagespeed.ic_.HdplbZBGSA.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb44896d-nHakeu.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xmany-different-herbal-teas-grey-table-flat-lay-min-scaled-530x353-q82-gd.jpg.pagespeed.ic_.HdplbZBGSA.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:8dc03dc19c8653221557dc685755e20286a45c00===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/uploads/2024/12/xhot-tea-antique-chinese-pottery-teapot-generated-by-ai-min-1-scaled-530x303-q82-gd.jpg.pagespeed.ic_.NZ8aBneOMA.jpg
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb44a8fa-t54Ztl.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/uploads/2024/12/xhot-tea-antique-chinese-pottery-teapot-generated-by-ai-min-1-scaled-530x303-q82-gd.jpg.pagespeed.ic_.NZ8aBneOMA.jpg?simply_static_page=530
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/uploads/2024/12/xhot-tea-antique-chinese-pottery-teapot-generated-by-ai-min-1-scaled-530x303-q82-gd.jpg.pagespeed.ic_.NZ8aBneOMA.jpg?simply_static_page=530
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 17521 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/12/xhot-tea-antique-chinese-pottery-teapot-generated-by-ai-min-1-scaled-530x303-q82-gd.jpg.pagespeed.ic_.NZ8aBneOMA.jpg
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb44a8fa-t54Ztl.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/uploads/2024/12/xhot-tea-antique-chinese-pottery-teapot-generated-by-ai-min-1-scaled-530x303-q82-gd.jpg.pagespeed.ic_.NZ8aBneOMA.jpg
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:6bfcd259bb3eb6340fc76800692740f10c385ef8===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/feed/
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb44c0cb-1Uihuh.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/feed/?simply_static_page=531
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/feed/?simply_static_page=531
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2227 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: feed/index.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb44c0cb-1Uihuh.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/feed/index.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:207894a8f59f6f8d0aad66864ce7137fdbabfe41===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/comments/feed/
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb46429a-lXirPy.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/comments/feed/?simply_static_page=532
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/comments/feed/?simply_static_page=532
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 1662 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: comments/feed/index.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb46429a-lXirPy.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/comments/feed/index.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:32afe3ae7177e3bac814558abdabf867a0f1fee3===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/blocks/navigation/style.min.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 69
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb47780c-0jlHTz.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=533
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=533
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/navigation/style.min.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb47780c-0jlHTz.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/blocks/navigation/style.min.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 3 of 69 pages/files
+[2024-12-18 18:04:36] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-18 18:04:36] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:36] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:69] Total pages: 71; Pages remaining: 18
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/blocks/social-links/style.min.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb479f97-aBIy6d.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/blocks/social-links/style.min.css?simply_static_page=534
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/blocks/social-links/style.min.css?simply_static_page=534
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 11600 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/blocks/social-links/style.min.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb479f97-aBIy6d.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/blocks/social-links/style.min.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:31aa11f7c686b08c09618aad559b886161247a72===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/css/patterns.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb47b767-8rQFws.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/themes/idea-flow/assets/css/patterns.css?simply_static_page=535
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/css/patterns.css?simply_static_page=535
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 10039 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/idea-flow/assets/css/patterns.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb47b767-8rQFws.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/themes/idea-flow/assets/css/patterns.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:d5c6fff8c31994b7b84cadecabc415fb63645027===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb47d127-vNEnif.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=536
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?simply_static_page=536
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 159803 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb47d127-vNEnif.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:5c3e40b07b0517fedb6024dbd5f0d923cbab00a0===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb47f9f4-z3ZeZG.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=537
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=537
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 53538 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb47f9f4-z3ZeZG.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:255f5d360af9e6aad7207ba4e4f6dae3bb3307f7===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb487223-aov6gA.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=538
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=538
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb487223-aov6gA.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/wp/v2/pages/2
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/wp/v2/pages/2
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/xmlrpc.php
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/xmlrpc.php
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/oembed/1.0/embed
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/oembed/1.0/embed
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb48aa75-4XFtwB.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=543
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=543
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 36695 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb48aa75-4XFtwB.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:b8552f14cf91bdfc758994614768737736f34657===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/fonts/figree/Figtree-VariableFont_wght.ttf
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb48cb44-SdclxX.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/themes/idea-flow/assets/fonts/figree/Figtree-VariableFont_wght.ttf?simply_static_page=544
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/themes/idea-flow/assets/fonts/figree/Figtree-VariableFont_wght.ttf?simply_static_page=544
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 62868 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/themes/idea-flow/assets/fonts/figree/Figtree-VariableFont_wght.ttf
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb48cb44-SdclxX.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/themes/idea-flow/assets/fonts/figree/Figtree-VariableFont_wght.ttf
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:1a2c3b4b2e4e4f6831124e10de6703f517e09509===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/main-sitemap.xsl
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb48e8b8-sjHUlq.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/main-sitemap.xsl?simply_static_page=545
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/main-sitemap.xsl?simply_static_page=545
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 4171 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml;charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: main-sitemap.xsl
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb48e8b8-sjHUlq.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/main-sitemap.xsl
+[2024-12-18 18:04:36] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:424bec392863c4738e378d4a55aeddc7d32cf1fc===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/post-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4a02ba-jOPv45.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/post-sitemap.xml?simply_static_page=546
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/post-sitemap.xml?simply_static_page=546
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 700 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: post-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4a02ba-jOPv45.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/post-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:eca6c371499999db6c28a40ce09a5dcb4eb9c090===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/page-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4b2185-lTetrH.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/page-sitemap.xml?simply_static_page=547
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/page-sitemap.xml?simply_static_page=547
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 2575 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: page-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4b2185-lTetrH.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/page-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 12 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:2a22e59175886a909c28119c7d7d3886fa0c00e7===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/category-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4c6b68-G0S2UM.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/category-sitemap.xml?simply_static_page=548
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/category-sitemap.xml?simply_static_page=548
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 711 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: category-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4c6b68-G0S2UM.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/category-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:0cbbbaa87e3a88da44544f56954f483210a8eee8===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/author-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4da1e1-2unMhq.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/author-sitemap.xml?simply_static_page=549
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/author-sitemap.xml?simply_static_page=549
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:103] Filesize: 700 bytes
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/xml; charset=UTF-8
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:233] New filename for static page: author-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4da1e1-2unMhq.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/author-sitemap.xml
+[2024-12-18 18:04:36] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:36] [class-ss-page.php:119] Checking Content Identical:876023b0c4f82c67c2128d6f9ecdcd8538cfdea8===. Value: FALSE
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/hello-world/
+[2024-12-18 18:04:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 71
+[2024-12-18 18:04:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb4ecafc-qHHQqz.tmp
+[2024-12-18 18:04:36] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/hello-world/?simply_static_page=550
+[2024-12-18 18:04:36] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/hello-world/?simply_static_page=550
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 92615 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: hello-world/index.html
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb4ecafc-qHHQqz.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/hello-world/index.html
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:61ecc8c54cb0601a50bbef02155e358ecd757acd===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/hello-world/feed/
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 71
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb53bbec-xGC0kH.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/hello-world/feed/?simply_static_page=551
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/hello-world/feed/?simply_static_page=551
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 1668 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: hello-world/feed/index.xml
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb53bbec-xGC0kH.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/hello-world/feed/index.xml
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:560a735c90b89faf3f6ae133e955c2c995d305a9===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 53 of 71 pages/files
+[2024-12-18 18:04:37] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-18 18:04:37] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:37] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:69] Total pages: 90; Pages remaining: 19
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb54ed0d-3lIgRA.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=552
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=552
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 134396 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb54ed0d-3lIgRA.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:5958a06de280ca88fd431cb53f99816b29f91aea===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb552044-3nKXCl.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=553
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=553
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 74288 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb552044-3nKXCl.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:0039be9d8a99d1e5cf200ca3e08757692020460e===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb553fa8-Rgcgp4.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=554
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=554
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 87048 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb553fa8-Rgcgp4.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:e00a59950b59ba51e1bd1bce08d2f63d03a2268a===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb555a92-O8lo63.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=555
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=555
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 134160 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb555a92-O8lo63.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:7cba2133893eb41e742d630f1218a8ac151675c8===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb5577fa-GBDUZ6.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=556
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=556
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 749737 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb5577fa-GBDUZ6.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:c4bd384d047cef886827bbf70fd6112a6de3c7b0===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb560635-BO4BMY.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=557
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=557
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 40308 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb560635-BO4BMY.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:b55b6e468adfb5d52879ba9389cad2a2b97892c9===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb562689-JsVjQa.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=558
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=558
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 14872 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb562689-JsVjQa.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:a4c23e5bae96a5da2dba5599d56114faeb4a3495===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb563d5e-xftSHd.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=559
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=559
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 18164 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb563d5e-xftSHd.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:26b552cb139041d3044c937e7879c9be2a8528bf===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb565322-i1IkKb.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=560
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=560
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 40080 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb565322-i1IkKb.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:3d58fd9d329aad13e48c4cbb0620cd47d583c047===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb566cc6-XlJ0pz.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=561
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=561
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 139825 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb566cc6-XlJ0pz.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:fe20f0cbb72636ba416ba94eddb9d106a541185d===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb5699cb-qEeByX.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=562
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=562
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 209012 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb5699cb-qEeByX.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:600b88c2053af11c6c7ea0491ff2554fda79ecbb===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb56cbd5-Gq6Fnv.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=563
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=563
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 79100 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb56cbd5-Gq6Fnv.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:28a1f2fadc35c5343e0280389fe7955e3d1be607===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb56e6d9-x6K5dY.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=564
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=564
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 102224 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb56e6d9-x6K5dY.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:28b3d94d115d3e80c3ffd86239fd84638c88d463===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb57005f-jJfykp.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=565
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=565
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 208792 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb57005f-jJfykp.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:4f8bfab573ad1de9084b1f7675953e2008e3f459===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb571f2c-ZVnlXy.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=566
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=566
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 794054 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb571f2c-ZVnlXy.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:27ff48cafd4ef630dda4f3a5007d66e824fcb4eb===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/category/uncategorized/
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb57af35-ASyZDl.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/category/uncategorized/?simply_static_page=567
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/category/uncategorized/?simply_static_page=567
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 79163 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: category/uncategorized/index.html
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb57af35-ASyZDl.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/category/uncategorized/index.html
+[2024-12-18 18:04:37] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 34 URLs to the queue
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:37] [class-ss-page.php:119] Checking Content Identical:016004ba29bc83d65ef66554bcc98f6649db0773===. Value: FALSE
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/author/root/
+[2024-12-18 18:04:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 90
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb5b6187-OjMmZw.tmp
+[2024-12-18 18:04:37] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/author/root/?simply_static_page=568
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/author/root/?simply_static_page=568
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:103] Filesize: 79765 bytes
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:233] New filename for static page: author/root/index.html
+[2024-12-18 18:04:37] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb5b6187-OjMmZw.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/author/root/index.html
+[2024-12-18 18:04:37] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:37] [class-ss-fetch-urls-task.php:159] Adding 33 URLs to the queue
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:38] [class-ss-page.php:119] Checking Content Identical:63ce61d958895f0bcd9a55d1aea8849f6859918f===. Value: FALSE
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-includes/js/comment-reply.min.js
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 90
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb601a7b-IftQNa.tmp
+[2024-12-18 18:04:38] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/wp-includes/js/comment-reply.min.js?simply_static_page=569
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/wp-includes/js/comment-reply.min.js?simply_static_page=569
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:103] Filesize: 3026 bytes
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:233] New filename for static page: wp-includes/js/comment-reply.min.js
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb601a7b-IftQNa.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/wp-includes/js/comment-reply.min.js
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:38] [class-ss-page.php:119] Checking Content Identical:b95fcda0c8c26305ad94e80343d0cfca8a048a10===. Value: FALSE
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/wp/v2/posts/1
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 90
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/wp/v2/posts/1
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 71 of 90 pages/files
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:69] Total pages: 94; Pages remaining: 4
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/category/uncategorized/feed/
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 94
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb604d05-y5SiOx.tmp
+[2024-12-18 18:04:38] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/category/uncategorized/feed/?simply_static_page=571
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/category/uncategorized/feed/?simply_static_page=571
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:103] Filesize: 2250 bytes
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:233] New filename for static page: category/uncategorized/feed/index.xml
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb604d05-y5SiOx.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/category/uncategorized/feed/index.xml
+[2024-12-18 18:04:38] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:38] [class-ss-page.php:119] Checking Content Identical:ea6a76617aca259fa63d0bd4736eac553f72bbb8===. Value: FALSE
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/wp/v2/categories/1
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 94
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/wp/v2/categories/1
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/author/root/feed/
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 94
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb6202e4-y66Iir.tmp
+[2024-12-18 18:04:38] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/author/root/feed/?simply_static_page=573
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/author/root/feed/?simply_static_page=573
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:103] Filesize: 2239 bytes
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:233] New filename for static page: author/root/feed/index.xml
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb6202e4-y66Iir.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/author/root/feed/index.xml
+[2024-12-18 18:04:38] [class-ss-yoast-sitemap-handler.php:64] Copied /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap_index.xml to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/sitemap.xml
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-12-18 18:04:38] [class-ss-page.php:119] Checking Content Identical:1660b02a238072627dbb6a4a51c474adb258ebfe===. Value: FALSE
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:72] URL: http://coffee-shop.local/wp-json/wp/v2/users/1
+[2024-12-18 18:04:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 94
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-shop.local/wp-json/wp/v2/users/1
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 90 of 94 pages/files
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2024-12-18 18:04:38] [class-ss-fetch-urls-task.php:69] Total pages: 94; Pages remaining: 0
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 94 of 94 pages/files
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /var/tmp/67630eb6384cd-dvImLV.tmp
+[2024-12-18 18:04:38] [class-ss-page-handler.php:38] URL Prepared:http://coffee-shop.local/1734545079?simply_static_page=0
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-shop.local/1734545079?simply_static_page=0
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:103] Filesize: 73017 bytes
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-12-18 18:04:38] [class-ss-url-fetcher.php:143] Renaming temp file from /var/tmp/67630eb6384cd-dvImLV.tmp to /Users/oleksii-lukash/Local Sites/coffee-shop/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070/404/index.html
+[2024-12-18 18:04:38] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-12-18 18:04:38] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-12-18 18:04:38] [class-ss-page.php:119] Checking Content Identical:f23868f4e9d158c0662b1458e25d34f4262419c4===. Value: FALSE
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:204] We've found our next task: create_zip_archive
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:172] Current task: create_zip_archive
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:182] Performing task: create_zip_archive
+[2024-12-18 18:04:38] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-12-18 18:04:38] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://coffee-shop.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1734545070.zip">Click here to download</a>
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2024-12-18 18:04:38] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-12-18 18:04:38] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:244] Completing the job
+[2024-12-18 18:04:38] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:08
